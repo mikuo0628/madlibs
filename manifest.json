@@ -43,8 +43,14 @@
     }
   },
   "files": {
+    ".Rprofile": {
+      "checksum": "96ba79f261712fe8a3f42737a73cc0f2"
+    },
     "app.R": {
       "checksum": "5e266851ed07c7bbf21d7627a6dcd526"
+    },
+    "DESCRIPTION": {
+      "checksum": "46013b7cd5d5a99ee6109a009d3b1595"
     },
     "renv.lock": {
       "checksum": "801d9133a810b07f74f966df0a690455"
