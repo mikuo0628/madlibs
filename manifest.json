@@ -10,6 +10,37 @@
     "has_parameters": false
   },
   "packages": {
+    "glue": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.posit.co/cran/latest",
+      "description": {
+        "Package": "glue",
+        "Title": "Interpreted String Literals",
+        "Version": "1.7.0",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2739-7082\")),\n    person(\"Jennifer\", \"Bryan\", , \"jenny@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-6983-2759\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "An implementation of interpreted string literals, inspired by\n    Python's Literal String Interpolation\n    <https://www.python.org/dev/peps/pep-0498/> and Docstrings\n    <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted\n    String Literals\n    <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://glue.tidyverse.org/, https://github.com/tidyverse/glue",
+        "BugReports": "https://github.com/tidyverse/glue/issues",
+        "Depends": "R (>= 3.6)",
+        "Imports": "methods",
+        "Suggests": "crayon, DBI (>= 1.2.0), dplyr, knitr, magrittr, rlang,\nrmarkdown, RSQLite, testthat (>= 3.2.0), vctrs (>= 0.3.0),\nwaldo (>= 0.3.0), withr",
+        "VignetteBuilder": "knitr",
+        "ByteCompile": "true",
+        "Config/Needs/website": "bench, forcats, ggbeeswarm, ggplot2, R.utils,\nrprintf, tidyr, tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3.9000",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-01-08 16:10:57 UTC; jenny",
+        "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Jennifer Bryan [aut, cre] (<https://orcid.org/0000-0002-6983-2759>),\n  Posit Software, PBC [cph, fnd]",
+        "Maintainer": "Jennifer Bryan <jenny@posit.co>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-01-09 23:13:08 UTC",
+        "Built": "R 4.3.3; x86_64-w64-mingw32; 2024-07-08 00:19:17 UTC; windows",
+        "Archs": "x64"
+      }
+    },
     "renv": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.posit.co/cran/latest",
@@ -36,15 +67,18 @@
         "Packaged": "2023-09-18 18:18:27 UTC; kevin",
         "Author": "Kevin Ushey [aut, cre] (<https://orcid.org/0000-0003-2880-7407>),\n  Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Kevin Ushey <kevin@rstudio.com>",
-        "Repository": "RSPM",
+        "Repository": "CRAN",
         "Date/Publication": "2023-09-19 08:10:02 UTC",
-        "Built": "R 4.3.0; ; 2023-09-20 11:24:59 UTC; windows"
+        "Built": "R 4.3.3; ; 2024-08-12 19:15:26 UTC; windows"
       }
     }
   },
   "files": {
+    ".Rbuildignore": {
+      "checksum": "7f3003188f3a78fd085feca239edcc60"
+    },
     ".Rprofile": {
-      "checksum": "96ba79f261712fe8a3f42737a73cc0f2"
+      "checksum": "fb5852cc90af106e78d30d9b6ccb4f4b"
     },
     "app.R": {
       "checksum": "5e266851ed07c7bbf21d7627a6dcd526"
@@ -53,7 +87,7 @@
       "checksum": "46013b7cd5d5a99ee6109a009d3b1595"
     },
     "renv.lock": {
-      "checksum": "801d9133a810b07f74f966df0a690455"
+      "checksum": "be2a1ec8a075b6ab5a700cce5e3f0fbc"
     }
   },
   "users": null
